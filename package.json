@@ -1,0 +1,12 @@
+{
+  "name": "a11y-testing-project",
+  "version": "1.0.0",
+  "description": "Automated accessibility testing with Playwright and axe-core",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@axe-core/playwright": "^4.10.0"
+  }
+}
